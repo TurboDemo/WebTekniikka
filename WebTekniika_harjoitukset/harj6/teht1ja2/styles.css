@@ -1,0 +1,109 @@
+* {
+    margin:0;
+}
+
+@font-face {
+    font-family: 'Mali', cursive;
+    src: url('../Mali/Mali-Bold.ttf');
+  }
+
+.sivu {
+max-width: 90%;
+margin:auto;
+}
+
+body {
+font-size: 1em;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+height: 90px;
+background-color: #575757;
+color:#F0EBEB;
+text-align: center;
+padding-top: 40px; 
+font-size: 30px;
+font-family: 'Mali', cursive;
+}
+
+.menu, .footer {
+height: 1.875em;
+background-color: #E49A2F;
+padding-top: 5px ; 
+color:#F7F5EE;
+align-content: center;
+text-align: center;
+display: block;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+.sisalto {
+    background-color: #D8CCAF;
+    overflow: auto;
+    width: 100%;
+    height: 700px;
+}
+
+.vasen_sisalto {
+    border-radius: 20px;
+    height:90%;
+    width: 25%;
+    margin-top:1em;
+    margin-left: 10em;
+    border:2px black solid;
+    background-color: white;
+    overflow: hidden;
+    float:left;
+    display: inline;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+    }
+    ul {
+        list-style-type: none;
+        background-color:  #E49A2F;
+        display: inline-block;
+        list-style-position: inside;
+        font-weight: 200;
+    }
+    
+    li a {
+        height: 1.875em;
+        color: white;
+        text-decoration: none;
+        float: none;
+    }
+    
+    /* Change the link color on hover */
+    li a:hover {
+        background-color: #555;
+        color: white;
+    }
+
+    .otsikon_vari {
+        color: #E49A2F
+    }
+
+    .oikea_sisalto {
+        border-radius: 20px;
+        height:60%;
+        width: 35%;
+        float:left;
+        margin-top:1em;
+        margin-left:10%;
+        border:2px black solid;
+        background-color: white;
+        overflow: hidden;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .oikealle {
+        text-align: right;
+    }
+img {
+    max-width: 80%;
+    resize: inherit;
+    float:right;
+    position: static;
+    bottom: 10%;
+    border-radius: 2em;
+}
